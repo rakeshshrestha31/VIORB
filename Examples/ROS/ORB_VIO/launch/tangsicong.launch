@@ -1,0 +1,6 @@
+<launch>
+
+ 	<node pkg="ORB_VIO" type="VIO2" name="VIO"  args="/home/sicong/VIORB_new/ORB_SLAM2/Vocabulary/ORBvoc.bin /home/sicong/LearnVIORB/config/euroc.yaml" cwd="node" output="screen">
+	</node>
+
+</launch>
